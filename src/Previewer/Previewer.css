@@ -1,0 +1,87 @@
+.previewWrap{
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-wrap: break-word;
+}
+
+.previewMenu{
+    height: 2rem;
+    background-color: #648DE5;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 40rem;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.previewMenu p{
+    font-weight: 600;
+}
+
+#preview{
+    border: 1px solid black;
+    max-width: 36rem;
+    min-height: 40rem;
+    background-color: white;
+    margin: 0 auto;
+    text-align: left;
+    padding: 2rem;
+}
+
+#preview table {
+    display: table;
+    border-spacing: 2px;
+    border-color: grey;
+}
+
+#preview ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+#preview ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+}
+
+#preview blockquote {
+    display: block;
+    border-left: 3px solid purple;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+#preview pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1rem;
+    padding: .5rem;
+    background-color: plum;
+}
+
+#preview img{
+    max-width: 20rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .previewWrap, #preview{
+        max-width: 25rem;
+    }
+
+    .previewMenu{
+        max-width: 25rem;
+    }
+    
+}
+

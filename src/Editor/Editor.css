@@ -1,0 +1,36 @@
+.editorWrap{
+    max-width: 30rem;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.menu{
+    height: 2rem;
+    background-color: #648DE5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 99%;
+    border: 1px solid black
+}
+
+.menu p{
+    font-weight: 600;
+}
+
+#editor{
+    width: 99%;
+    min-height: 200px;
+    margin-bottom: -5px;
+    resize: vertical;
+    outline: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .editorWrap{
+        max-width: 20rem;
+    }
+}
